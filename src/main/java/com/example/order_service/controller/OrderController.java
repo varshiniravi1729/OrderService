@@ -28,7 +28,7 @@ public class OrderController {
         return service.createOrder(dto);
     }
 
-    public String hi(){
-        return "Hello flskdjflasj";
+    public String Break(){
+        return "Mam Give Break plz🥺🥺!!!!!!!!!1";
     }
 }
