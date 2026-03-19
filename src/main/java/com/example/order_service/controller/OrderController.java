@@ -23,6 +23,10 @@ public class OrderController {
         return "Hello";
     }
 
+    public String Hell(){
+        return "mam pls give us break";
+    }
+
     @PostMapping
     public OrderResponseDTO createOrder(@RequestBody OrderRequestDTO dto) {
         return service.createOrder(dto);
