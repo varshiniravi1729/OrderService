@@ -27,4 +27,8 @@ public class OrderController {
     public OrderResponseDTO createOrder(@RequestBody OrderRequestDTO dto) {
         return service.createOrder(dto);
     }
+
+    public String hi(){
+        return "Hello flskdjflasj";
+    }
 }
