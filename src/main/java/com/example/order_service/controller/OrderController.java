@@ -19,6 +19,10 @@ public class OrderController {
 
     private final OrderService service;
 
+    public String Hello(){
+        return "Hello";
+    }
+
     @PostMapping
     public OrderResponseDTO createOrder(@RequestBody OrderRequestDTO dto) {
         return service.createOrder(dto);
