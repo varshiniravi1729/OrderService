@@ -20,7 +20,10 @@ public class OrderController {
     private final OrderService service;
 
     public String Hello(){
-        return "Hello";
+        return "Hi  Hello";
+    }
+    public String hi(){
+        return "this is rohith and kalyan and pavan";
     }
     public String Hi(){
         return "Hi";
