@@ -35,5 +35,9 @@ public class OrderController {
     public OrderResponseDTO createOrder(@RequestBody OrderRequestDTO dto) {
         return service.createOrder(dto);
     }
+
+    public String Break(){
+        return "Mam Give Break plz🥺🥺!!!!!!!!!1";
+    }
 }
 //added a new line in order controller
