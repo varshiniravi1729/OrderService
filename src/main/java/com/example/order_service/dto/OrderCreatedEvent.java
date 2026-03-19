@@ -11,4 +11,5 @@ public class OrderCreatedEvent {
 
     private Long orderId;
     private double amount;
+
 }
