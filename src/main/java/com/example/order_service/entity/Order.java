@@ -27,6 +27,8 @@ public class Order {
     private double price;
 
     private String status;
-    private String name;
+
+    //chANGED FOR GIT
+
 
 }
