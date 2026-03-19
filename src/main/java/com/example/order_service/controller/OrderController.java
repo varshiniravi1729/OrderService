@@ -22,6 +22,9 @@ public class OrderController {
     public String Hello(){
         return "Hello";
     }
+    public String Hi(){
+        return "Hi";
+    }
 
     @PostMapping
     public OrderResponseDTO createOrder(@RequestBody OrderRequestDTO dto) {
